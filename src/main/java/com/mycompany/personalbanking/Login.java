@@ -93,6 +93,11 @@ public class Login extends javax.swing.JFrame {
         jLabel6.setText("Dont have an account");
 
         jLabel7.setText("Register");
+        jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel7MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout LoginformLayout = new javax.swing.GroupLayout(Loginform);
         Loginform.setLayout(LoginformLayout);
@@ -161,6 +166,14 @@ public class Login extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jLabel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseClicked
+        // TODO add your handling code here:
+        this.dispose();
+        Signup i = new Signup();
+        i.setVisible(true);
+        
+    }//GEN-LAST:event_jLabel7MouseClicked
 
     /**
      * @param args the command line arguments
