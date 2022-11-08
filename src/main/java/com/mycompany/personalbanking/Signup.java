@@ -158,7 +158,7 @@ public class Signup extends javax.swing.JFrame {
 
         jTextField9.setText("Your email address");
 
-        jLabel16.setText("jLabel16");
+        jLabel16.setText("Gender");
 
         jRadioButton1.setText("male");
 
